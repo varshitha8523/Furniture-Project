@@ -1,0 +1,1766 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+
+}
+/* padding */
+.padding{
+    padding: 2rem;
+}
+/* button styling */
+.button{
+    border: none;
+    background: rgb(255, 225, 181);
+    border-radius: 300px;
+    display: flex;
+    justify-items:  center;
+    padding: 0.5rem;
+    width: 60%;
+    height: 4vh;
+    margin: 2rem 0;
+    
+}
+.button button{
+border: none;
+background:rgb(255, 225, 181) ;
+font-size: x-large;
+margin-left: 1rem;
+
+}
+.button img{
+    width:3vh;
+    height: 1.2vh;
+    align-self: center;
+    margin-left: 1vh;
+}
+/* Input Style */
+.input{
+    padding: 0.5rem;
+    background-color: rgb(255, 225, 181);
+    border: 1px solid none;
+    width: 80%;
+    height:3vh;
+    border-radius: 18px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:  center;
+    margin: 1rem 3rem; 
+}
+    
+  
+
+/* table */
+table,tr,td,th{
+    border:3px solid black;
+border-collapse: collapse;
+height: 10vh;
+text-align: center;
+}
+/* one */
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color:rgb(88, 88, 198);
+
+}
+
+header img{
+    height:3vh;
+    width: 10%;
+    align-self: center;
+}
+.input img{
+    height:2vh;
+    width: auto;
+}
+header{
+    font-size: large;
+    margin-top: 3vh;
+    width:95%;
+
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0.5rem;
+
+
+    
+     
+}
+header h4{
+    color:rgb(236, 200, 108);
+}
+.offer{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+
+    }
+.offer .offers{
+        margin-top: 1rem;
+        margin-left: 0.8rem;
+        display: flex;
+        justify-items: center;
+        font-size: small;
+        align-items: center;
+        
+        
+    }
+.offers img{
+    height: auto;
+    width: 10%;
+        margin-right: 2rem;
+    }
+
+/* Type */
+.type{
+    margin: 1.2vh;
+    padding: 2rem;
+    border:1px solid none;
+    border-radius: 40px;
+    width:50%;
+    height: 18vh;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+/* span,h1 and p1*/
+
+span{
+    color: rgb(236, 200, 108);
+}
+ h1{
+    font-size: xx-large;
+}
+p{
+    font-size: small;
+    font-weight: 400;
+}
+/* img */
+.type img{
+    width:80%; 
+    height: 15vh;
+    display: flex;
+    align-items: center;
+
+}
+/* bottom */
+.bottom {
+    margin: 5vh;
+
+    background:#fbe0d2;
+    border: 1px solid none;
+    border-radius: 40px;
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+}
+/* difftype */
+.difftype{
+    border:1px solid none;
+    background: #fbe0d2;
+    width: 80%;
+     height: 40vh;
+    margin: 1rem 0;
+  
+}
+/* top */
+.para{
+    padding: 3rem ;
+   
+    height: 1.2vh;
+    
+}
+ .top{
+    margin: 2rem;
+    background:rgb(255, 225, 181);
+
+}
+ .top .para h3{
+    font-size: x-large;
+    font-weight:600;
+}
+.top .para img{
+    margin-top: 0.2vh;
+    margin-left: 8rem;
+    
+    width:20%;
+    height: 2vh;
+
+    
+}
+
+.top .types{
+     display: grid; 
+    justify-items: center;
+    margin-top: 9vh;
+
+}
+/* itemss rating */
+.itemss{
+    
+    margin-left: 7rem;
+
+}
+/* seven and seventeen boxes design */
+.box{
+    border: 1px solid none;
+    border-radius: 5px;
+margin: 1rem;
+    height:16vh;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:1.3rem 0.6rem ;
+
+} 
+.box .left img{
+    border-radius: 50%;
+    width: 60%;
+    height: 12vh;
+}
+.box .right{
+    margin-left: -25%;
+}
+.box .right h4{
+    font-size: 12px;
+    font-weight: 500;
+}
+.box .right img{
+    width: 50%;
+    height: 15vh;
+    margin-top: -12%;
+} 
+/* eleven twelve thriteen */
+.details{
+
+   height: 140vh;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+    
+} 
+.details .left{
+    width: 55%;
+    height: 20vh;
+    margin-left: 13vh;
+  
+}
+
+.details .left .type1 {
+background: rgb(255, 225, 181);
+width:64%;
+height: 17vh;
+margin:2vh;
+border-radius: 14px;
+display: flex;
+justify-content: center;
+}
+.details .left .type1 img{
+    width:195%;
+    height: 17vh;
+
+}
+.details .middle img{
+    width: 100%;
+    height: 28vh;
+    margin-left: 1vh;
+    margin-top:60vh ;
+    
+}
+
+
+.details .right h2{
+    font-size: x-large;
+}
+.details .right .b img{
+    width: 100%;
+    height: 12vh;
+
+}
+/* Twelve Thriteen */
+.details .right {
+    height: 70vh;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+width: 102%;
+margin-right: 20rem;
+padding: 2rem;
+
+}
+
+ .details .right ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+    height: 50vh;
+}
+
+/* Section One */
+
+
+.one .left{
+    
+   height: 95vh;
+   display: grid;
+   justify-content: space-around;
+}
+.one .left h4{
+    border: 1px soild none;
+    background: rgb(255, 225, 181);
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    height: 5vh;
+    margin-bottom: 2vh;
+
+}
+
+.one .left h2{
+color:rgb(88, 88, 198) ;
+font-size: xx-large;
+
+}
+.one .left h2,img{
+
+    height: 3vh;
+    width: 10vh;
+    display: flex;
+    align-items: center;
+}
+.one .left h1{
+    color:rgb(236, 200, 108);
+    font-size: 2rem;
+}
+.one .left p{
+    font-size: small;
+}
+.one .left .button a{
+    color: black;
+    margin-left: 1rem;
+    align-self: center;
+    font-size: medium;
+}
+
+
+
+.one .right{
+    width:100%;
+}
+.one .right img{
+    width:100%;
+    height: 45vh;
+    margin-left: 1.5rem;
+
+
+}
+/* section Two */
+
+
+.two .top .para h3{
+    font-size: large;
+}
+.top .para img{
+    margin-left: 2rem;
+}
+.two .bottom h3{
+
+    width: 50%;
+    font-size: x-large;
+    font-weight: 500;
+    align-self: center;
+}
+.two .bottom img{
+margin-top: -1vh;
+width:55%;
+height:15vh;
+
+}
+/* Section Three */
+.three
+{
+    display: grid;
+  
+ 
+justify-items: center;
+}
+
+.three .difftype .left{
+    
+
+padding:2rem 4rem;
+
+
+}
+.three .difftype .left h5{
+    color: rgb(67, 67, 149);
+}
+.three .difftype .left h1{
+    font-size: smaller;
+}
+
+.three .difftype .right img{
+    width:30%;
+    height: 8vh;
+display: flex;
+margin-left: 3rem;
+}
+/* Section Four */
+.four{
+    
+    background: #fbe0d2;
+    margin: 1.5rem;
+
+} .four .left{
+width:132%;
+height: 40vh;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.four .right{
+   margin-top: 2rem;
+}
+
+.four .right h2{
+    font-size: xx-large;
+    font-stretch: narrower;
+    font-weight: 500;
+}
+ 
+
+
+.four .right .verify{
+    display: flex;
+    font-size: medium;
+height: 5vh;
+    align-items: center;
+}
+.four .right .verify h3{
+    margin-left: 1.2rem;
+    font-size: large;
+}
+.four .right .verify img{
+    width:8%;
+}
+.four .right .button{
+    width:90%;
+    height: 10vh;
+
+}
+/* Section Five */
+.five{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 240vh;
+}
+.five .header h1{
+margin-left: 5rem;
+}
+.five .header {
+       
+    margin-bottom: 2rem;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 98%;
+    height: 5vh;
+}
+.five .itemss .itemrate{
+    margin-left: -2rem;
+  width: 120%;
+}
+.five .type{
+    background:#fbe0d2 ;
+
+}
+
+.five .itemss .ratings img{
+    width:60%;
+    height: 11vh;
+}
+.five .itemss .ratings span{
+color: rgb(88, 88, 198);
+font-size: large;
+}
+.five .itemss .ratings h5{
+    color: teal;
+    font-size: smaller;
+}
+/* Section Six */
+.six{
+
+    height: 240vh;
+}
+
+
+.six .bottom{
+
+    width:90%;
+    
+   
+   
+}
+.six .bottom .button{
+    width: 100%;
+    height: 9vh;
+}
+
+.six .bottom .right img{
+    width:150%;
+    height: 10vh;
+    margin-left :-2rem;
+} 
+/* Section seven */
+.seven{
+    height: 250vh;
+    background: #fbe0d2;
+margin: 1rem;
+}
+.seven .header h1{
+    display: flex;
+    justify-content: center;
+}
+.seven .header p{
+    margin-left: 5vh;
+}
+.seven .customers{
+    height: 145vh;
+   
+}
+.seven .customers .box {
+    height: 25vh;
+}
+.seven .customers .box .right img {
+    width: 40%;
+  height: 15vh;
+margin-top: 0;
+}
+
+
+/* section eight */
+.eight{
+    padding:0 5rem;
+    height: 335vh;
+    display: grid;
+    margin-left: 2rem;
+}
+.eight h1{
+    margin-bottom: 2rem;
+    font-size: xx-large;
+}
+
+ .eight .difftype{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+padding: 0.4rem;
+height: 100vh;
+ }
+ .eight .about  .difftype img{
+    width: 100%;
+    height: 90vh;
+ }
+ .eight .about .difftype h4{
+    margin: 1rem 1.2vh;
+font-size: 85%;
+font-weight: 400;
+ }
+ /* Section Nine */
+ .nine .top{
+background: #fbe0d2;
+ }
+ .nine .top .para h2{
+font-weight: 400;
+font-size: medium;
+
+ }
+ .nine .map img{
+    height :30vh;
+    width: 85%;
+    margin-left: 2rem;
+ }
+ /* Section Ten */
+ .ten{
+
+    height: 159vh;
+    text-align: center;
+    margin-top: 3vh;
+    
+
+ }
+ 
+
+.ten .b1 h4{
+    font-weight:350;
+    text-align: center;
+}
+.ten .b1 .heading h2{
+    font-size: xx-large;
+}
+.ten .b1 .heading img{
+    height: 3vh;
+    width: 10%;
+    align-self: center;
+}
+.ten .b2{
+    display: grid;
+    justify-content: space-around;
+    height: 30vh;
+}
+
+.ten .b2 ul{
+    
+list-style: none;
+display: flex;
+flex-direction: column;
+width: 101%;
+}
+
+
+/* Section eleven */
+.eleven{
+    height: 228vh;
+}
+
+.eleven .details .right .cost{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.eleven .details .right .cost h2{
+    text-decoration:line-through;
+    }
+.eleven .details .right .cost span{
+    color: rgb(88, 88, 198);
+    font-size: xx-large;
+
+}
+
+/* Section twelve */
+.twelve{
+    height: 203vh;
+}
+
+.twelve .details .right ul span{
+
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+
+/*  Section Thriteen */
+.thriteen{
+    height: 175vh;
+}
+.thriteen .details .right ul {
+    list-style: disc;
+    padding-left: 1.2rem;
+}
+/* Section Fourteen */
+.fourteen{
+    padding: 14rem;
+    height: 230vh;
+  display: grid;
+  justify-content: center;
+  margin-left: -10%;
+}
+.fourteen .tables  table,tr,td,th{
+font-size: small;
+}
+
+.fourteen .tables .left{
+    margin:2rem 0rem;
+    width:50%;
+}
+.fourteen .tables td{
+    padding: 1.5rem;
+}
+
+/* section fifteen  */
+.fifteen{
+    padding: 3rem;
+    height:245vh;
+}
+.fifteen .itemss{
+    width:100%;
+    margin-left: 4rem;
+}
+.fifteen .type{
+    background:rgb(255, 225, 181) ;
+    height: 25vh;
+    margin-top: 1rem;
+}
+.fifteen .itemss  .info {
+    margin-left: -10rem;
+   display: grid;
+   justify-content: space-around;
+   height: 16vh;
+   margin-bottom: 2rem;
+}
+.fifteen .itemss  .info h5{
+    font-weight: 400;
+    text-align: center;
+}
+.fifteen .itemss  .info .button {
+    width:90%;
+    height: 6vh;
+}
+
+.fifteen .itemss  .info .button button{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fifteen .itemss  .info .button img{
+ height: 2vh;
+}
+
+/* sixteen */
+.sixteen{
+   display: none;
+}
+
+/* Seventeen  */
+.seventeen{
+    height: 208vh;
+    display: grid;
+    justify-items: center;
+   
+}
+.seventeen .details {
+        height: 100vh;
+        width: 85%;
+        
+    }
+    .seventeen .details .reviews h2{
+        margin-left: 1rem;
+    }
+.seventeen .details .reviews h4{
+    font-weight: 300;
+    font-size:x-large;
+    margin-left: 1rem;
+}
+
+    .seventeen .details .reviews img{
+        width: 30%;
+        height: 5vh;
+    margin-left: 3rem;
+        
+    
+        }
+.seventeen .details .reviews .r img{
+width: 60%;
+height: 20vh;
+margin-left: -1rem;
+}
+.seventeen .details .peers .box {
+    
+    border: 0.2px solid black;
+    width: 64%;
+    margin-left: -5%;
+    
+    
+
+}
+.seventeen .details .peers .box .left img{
+    width: 290%;
+    height: 8vh;
+    margin-left: -1%;
+}
+.seventeen .details .peers .box .left {
+    margin-left:2rem;
+}
+.seventeen .details .peers .box .right{
+height: 10vh;
+width: 60%;
+margin-left:2rem;
+margin-top: -2.2rem;
+
+}
+/* Media Queries Section */
+@media screen and (min-width:700px){
+
+.input{
+    width: 70%;
+    height: 6vh;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    margin-left:2rem;
+    height: 9vh;
+}
+header img{
+    height: 5vh;
+
+width: 12%;
+}
+header ul{
+margin-left: 0;
+}
+.button{
+   
+    height: 10vh;
+    width: 40%;
+}
+/* one */
+.one .left h1 {
+    margin-right: 40rem;
+}
+.one .left{
+height: 90vh;
+}
+.one .left h4{
+    height: 7vh;
+    width: 40%;
+    padding-top: 0.8rem;
+}
+.offer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 22vh;
+}
+.offers img{
+    height: 10vh;
+}
+.one .left p{
+    font-size: large;
+    width: 83%;
+    
+}
+.one .left .button a{
+    font-size: x-large;
+}
+.one .left .button img{
+    height: 2.5vh;
+}
+.one .right img{
+    height: 80vh;
+}
+/* two */
+.two .top .para{
+    display: grid;
+    justify-content: center;
+}
+.two .top{
+    margin: 0;
+width:105%;
+}
+.two .top .types {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 30vh;
+}
+.two .top .type{
+    width: 90%;
+    height: 25vh;
+}
+.two .bottom{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 40vh;
+}
+.two .bottom h3{
+    font-size: large;
+}
+.two .bottom img{
+    height: 25vh;
+}
+/* three */
+.three{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.three .difftype{
+    width: 95%;
+    height: 56vh;
+    
+}
+.three .difftype .left h1{
+    text-align: start;
+    font-size: x-large;
+}
+.three .difftype .right img{
+    height: 25vh;
+    width: 80%;
+}
+/* four */
+.four{
+    margin-left: 3rem;
+}
+.four .right .left{
+    width: 78%;
+}
+.four .right h2,h1{
+text-align: center;
+   }
+   .four .right p{
+    font-size: large;
+   }
+   .four .right .verify{
+    height: 8vh;
+   }
+   .four .right .button{
+    height: 9vh;
+    width: 35%;
+   }
+   /* five */
+   .five{
+    height: 160vh;
+   }
+   .five .header p{
+font-size: medium;
+height: 18vh;
+text-align: center;
+   }
+   .five .itemss{
+   margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    
+   }
+   .five .itemss .itemrate{
+    margin: 1vh;
+   }
+   .five .itemss .itemrate .type{
+    height: 35vh;
+    width: 75%;
+   }
+   .five .itemss .itemrate .ratings{
+    margin-left: 1.6rem;
+   }
+   /* six */
+   .six{
+    height: 220vh;
+   }
+   .six .itemss{
+     
+     height: 120vh;
+    } 
+    .six .bottom{
+        font-size: x-large;
+        height: 190vh;
+    }
+    .six .bottom .button{
+        height:auto;
+        width: 80%;
+    }
+    .six .bottom img{
+        height: 4vh;
+        width: 10%;
+    }
+    .six .bottom .right img{
+        height: 40vh;
+        width: 110%;
+    }
+    /* seven */
+    .seven{
+        margin: 2rem;
+        height: 250vh;
+        width: 95%;
+    }
+    .seven .header{
+        text-align: center;
+
+    }
+    .seven .header p{
+        font-size: large;}
+    .seven .box{
+        height: 18vh;
+        width: 90%;
+     
+        
+    }.seven .customers{
+        margin-left: 2rem;
+    }
+    .seven .box .right h4{
+        font-size: medium;
+    }
+   .seven .box .right img {
+        width: 50%;
+        height: 23vh;}
+       .seven .box .left img {
+width: 40%;
+
+       }
+       .seven .box .right {
+        margin-left:-45%;}
+        /* eight */
+        .eight{
+            padding-right: 0rem;
+            margin: 0;
+            height: auto;
+        }
+        .eight .about{
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+
+        }
+        .eight .about .difftype {
+            height: 80vh;
+            width: 95%;
+           
+        }
+        .eight .about .difftype h4{
+            font-size: large;
+        }
+        /* nine */
+.nine{
+    text-align: center;
+    margin-left: 2.5rem;
+    
+}
+.nine .top {
+    height: 70vh;
+
+}
+.nine .top .para img{
+    width: 12%;
+    margin:1rem 19rem;
+    height: 3vh;
+}
+.nine .top .types{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+}
+.nine .top .types .type{
+    width: 82%;
+    height: 35vh;
+}
+.nine .map img{
+    height: 90vh;
+    width: 90%;
+}
+/* ten */
+.ten{
+    margin-top: 3rem;
+    height: 48vh;
+    display: flex;
+    
+
+}
+.ten .b1 .heading img{
+    height: 6vh;
+}
+.ten .b1{
+    width: 40%;
+    margin-left: 1rem;
+
+}
+.ten .b1 .input{
+width: 100%;
+margin-left: 0;
+}
+
+.ten .b2 ul{
+    margin-right: 2rem;
+    height: 32vh;
+  
+}
+/* eleven */
+.eleven{
+    height: 230vh;
+}
+
+.eleven .details{
+display: grid;
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.eleven .details .middle img{
+    width: 380%;
+    height: 105vh;
+  margin-left: -11rem;
+    margin-top:5vh ;
+}
+.eleven .details .left .type1{
+    height: 25vh;
+}
+.eleven .details .left .type1 img{
+    height: 22vh;
+}
+
+.eleven .details .right{
+    width: 120%;
+}
+.eleven .details .right p{
+    font-size:1.2rem;
+}
+.eleven .details .right .offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55vh;
+}
+/* twelve */
+.twelve{
+    height: 200vh;
+}
+
+.twelve .details{
+display: grid;
+grid-template-columns:repeat(2,1fr);
+}
+
+.twelve .details .middle img{
+    width: 120%;
+    height: 105vh;
+    margin-left: -50%;
+    margin-top:5vh ;
+}
+.twelve .details .left .type1{
+    height: 25vh;
+}
+.twelve .details .left .type1 img{
+    height: 22vh;
+}
+.twelve .details .right {
+    width: 125%;
+}
+
+.twelve .details .right ul,span {
+   
+    font-size: larger;
+}
+/* thriteen */
+.thriteen{
+    height: 160vh;
+}
+
+.thriteen .details{
+display: grid;
+grid-template-columns:repeat(2,1fr);
+}
+
+.thriteen .details .middle img{
+    width: 120%;
+    height: 105vh;
+    margin-left: -50%;
+    margin-top:5vh ;
+}
+.thriteen .details .left .type1{
+    height: 25vh;
+}
+.thriteen.details .left .type1 img{
+    height: 22vh;
+}
+.thriteen .details .right ul{
+    width: 150%;
+    font-size: large;
+}
+/* fourteen */
+.fourteen{
+    height: 140vh;
+}
+.fourteen .tables{
+    display:flex;
+    align-items: center;
+
+}
+.fourteen .tables .left{
+    margin-right: 1rem;
+}
+/* fifteen */
+.fifteen{
+    height: 150vh;
+}
+.fifteen .itemss{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.fifteen .itemss .inform .type{
+width: 70%;
+height: 30vh;
+margin: 2rem 0;
+}
+.fifteen .itemss .inform .type img{
+    height: 28vh;
+}
+.fifteen .itemss .inform .info{
+    margin-left: -0.8rem;
+    font-size:larger;
+}
+.fifteen .itemss .inform .button{
+    height: 8vh;
+    width: 70%;
+    margin-left: 2.5rem;
+
+}
+/* seventeen */
+.seventeen{
+width: auto;
+height: 190vh;
+
+}
+.seventeen .details .reviews {
+    text-align: center;
+}
+.seventeen .details .reviews img{
+    width: 20%;
+    height: 8vh;
+margin-left: 15rem;
+    
+
+    }
+.seventeen .details .reviews .r img{
+width: 90%;
+height: 50vh;
+margin-left: 1rem;
+}
+ .seventeen .details .peers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 3rem;
+ 
+    
+} 
+.seventeen .details .peers .box {
+margin-right:-25rem ;
+    width: 93%;
+    height: 20vh;
+  
+}
+.seventeen .details .peers .box .right{
+    margin-top: -1.6rem;
+    width: 45%;
+}
+}
+/* Laptops and other devices */
+@media screen and (min-width:1200px){
+    
+    /* one */
+    header{
+margin-top: 0.1rem;
+    }
+    
+    header img{
+        height:7vh;
+        width: 8vh;}
+        header{
+            font-size: x-large;
+        }
+        .input img{
+            height:3vh;
+            width: auto;
+        }
+                
+    
+    .one{
+        display: flex;
+    }
+    .one .left{
+      
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .one .left h4{
+        
+        border: 1px soild none;
+        background: rgb(255, 225, 181);
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        font-size: large;
+    }
+    
+    .one .left h2{
+    color:rgb(88, 88, 198) ;
+    font-size: xx-large;
+    
+    }
+   
+    .one .left h2,img{
+    
+        height: 6vh;
+        width: 10vh;
+        display: flex;
+        align-items: center;
+    }
+    .one .left h1{
+        margin-top: 0rem;
+    }
+    .one .left h1{
+       
+        font-size: 3rem;
+    }
+    .one .left p{
+        font-size: medium;
+    }
+    .one .left .button{
+        width: 22%;
+    }
+    
+    .one .left .button a{
+        color: black;
+        margin-left: 3rem;
+        align-self: center;
+        font-size: medium;
+      
+    }
+    
+    .one .right{
+        width:100%;
+    }
+    .one .right img{
+         width:150%;
+        height: 75%;
+        margin-left: -7rem;
+
+    }
+    /* two */
+    
+    .two .top{
+        display: flex;
+        background:rgb(255, 225, 181);
+        height: 50vh;
+        width: 100%;
+    
+    }
+    .two .top .para h3{
+        font-size: xx-large;
+        font-weight:600;
+    }
+   .two .top .para img{
+        margin-top: 2vh;
+        width:25%;
+        height: 2.5vh;
+        display: flex;
+        align-self: center;
+    }
+    
+  .two  .top .types{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: space-between;
+        width: 65%;
+    }
+    .two .bottom{
+        margin-left: 2.2rem;
+        
+    }
+    /* Section Three */
+    
+
+
+
+.three .difftype {
+         width: 90%; 
+         height: 75vh;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .three .difftype .left{
+        width:92%;
+        height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+    
+    
+    }
+    
+    .three .difftype .left h1{
+        font-size: xx-large;
+    }
+    .three .difftype .right{
+        width:40%;
+        text-align: center;
+    }
+    .three .difftype .right img{
+        width:260%;
+        height: 65vh;
+        margin-top: 10vh;
+        margin-left: -10%;
+    }
+    /* four */
+    .four{
+        display: flex;
+        width: 95%;
+        height: 110vh;
+    }
+    .four .left{
+        width:90%;
+        height: 118vh;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+        }
+        .four .left .type{
+            height: 30vh;
+            width: 70%;
+        }
+        .four .right h2{
+            font-size: xx-large;
+            font-stretch: narrower;
+            font-weight: 500;
+        }
+        
+        .four .right{
+          
+            width:80%;
+
+            
+        }
+        .four .right h2,h1{
+            text-align: start;
+            font-size: xx-large;
+        }
+        .four .right .button{
+            width:45%;
+        
+        }
+        
+        /* five */
+        .five{
+            height: 110vh;
+        padding-left: 0;
+        }
+        .five .header h1{
+        display: flex;
+        justify-content: center;
+        
+       
+        }
+        .five .header{
+            width:70%;    
+            height: 26vh;
+        }
+        .five ul{
+            width: 80%;
+            font-size: larger;
+        }
+        
+    
+        .five .itemss{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        
+        }
+        .five .itemss .itemrate .ratings{
+            width: 100%;
+        }
+        /* six */
+        .six{
+           height: 120vh;
+        }
+        .six .bottom{
+            margin-top: -16vh;
+            width:90%;
+            margin-left: 2rem;
+            height: 40vh;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            padding: 1.1rem 4rem;
+        }
+        .six .bottom .left .button{
+            width: 40%;
+            height: 7vh;
+        }
+        
+        .six .bottom .right img{
+            width:90%;
+            height: 28vh;
+        }
+        /* seven */
+        .seven{
+            height: 100vh;
+            width: 95%;
+        }
+
+        .seven .customers .box{
+            height: 23vh;
+        }
+        .seven .customers .tops {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            width: 100%;
+            background: none;
+        }
+        
+        .seven .customers .middles{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            margin-left: 10rem;
+        
+            width: 70%;
+        }
+        /* nine */
+        .nine .top {
+            display: flex;
+            height: 55vh;
+        }
+        .nine .top .types{
+        margin-left: -20%;
+        width: 80%;
+        }     
+        .nine .top .para h2,h1{
+            display: grid;
+            justify-content: flex-start;
+            margin-top: 1.8rem;
+
+        }   
+        .nine .top .para img{
+            margin-left: 1rem;
+        }
+        .nine .map img{
+            width: 95%;
+        }
+        /* ten */
+        .ten{
+            height: 40vh;
+        }
+        .ten .b1{
+        width:50%;
+        }
+        .ten .b2{
+            width: 30%;
+        }
+        /* eleven */
+        .eleven{
+            height: 115vh;
+        }
+        
+        .eleven .details{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            padding: 3rem 4rem;
+            
+        }
+        .eleven .details .left{
+            width: 55%;
+            
+            margin-left: -10%;
+        
+          
+        }
+        
+       .eleven .details .left .type1 {
+        width:90%;
+        height: 17vh;
+        margin:2vh;
+        }
+        .eleven .details .left .type1 img{
+            height: 16vh;
+        }
+       
+        .eleven .details .middle img{
+            width: 120%;
+            height: 75vh;
+            margin-left: -50%;
+            margin-top:5vh ;
+        }
+        .eleven .details  .right{
+            width: 130%;
+            margin-right: -50%;
+            margin-left: -28%;
+            margin-top: -8%;
+            
+            
+        
+    
+        }
+        .eleven .details .right .offer{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            height: 15vh;
+            }
+        
+        
+       /*twelve  */
+       .twelve{
+        height: 105vh;
+       }
+       
+       .twelve .details{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 3rem 4rem;
+        
+    }
+       .twelve .details .left{
+        width: 55%;
+        
+        margin-left: -10%;
+    
+      
+    }
+    
+   .twelve  .details .left .type1 {
+    width:90%;
+    height: 18vh;
+    margin:2vh;
+    }
+    .twelve  .details .left .type1 img{
+        height: 16vh;
+    }
+   
+    .twelve  .details .middle img{
+        width: 120%;
+        height: 75vh;
+        margin-left: -50%;
+        margin-top:5vh ;
+    }
+    .twelve .details  .right{
+        width: 145%;
+        margin-right: -50%;
+        margin-left: -38%;
+        margin-top: -5%;}
+        
+        .twelve .details .right ul {
+            font-size: large;
+            height: 30vh;
+        }
+    /* thriteen */
+    .thriteen{
+        height: 75vh;
+       }
+       
+       .thriteen .details{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 3rem 4rem;
+        
+    }
+       .thriteen .details .left{
+        width: 55%;
+        
+        margin-left: -10%;
+    
+      
+    }
+    
+   .thriteen .details .left .type1 {
+    width:90%;
+    height: 18vh;
+    margin:2vh;
+    }
+    .thriteen  .details .left .type1 img{
+        height: 16vh;
+    }
+   
+    .thriteen  .details .middle img{
+        width: 120%;
+        height: 75vh;
+        margin-left: -50%;
+        margin-top:5vh ;
+    }
+    .thriteen .details  .right{
+        width: 110%;
+        margin-right: -50%;
+        margin-left: -38%;
+        margin-top: -5%;}
+        
+        .thriteen .details .right ul {
+            font-size: medium;
+            height: 40vh;
+        }
+        /* fifteen */
+        .fifteen .itemss{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            padding-left: 22rem;
+        
+        }
+        .fifteen .itemss .inform .type{
+            width: 72%;
+        }
+        .fifteen .itemss .inform .info{
+            width: 100%;
+
+        }
+        .fifteen .itemss .inform .info .button{
+            margin-left: 1rem;
+            width: 80%;
+        }
+        /* sixteen */
+        .sixteen{
+            display: flex;
+            padding: 3rem;
+        }
+        .sixteen img{
+            height: 18vh;
+            width: 50%;
+           margin-left: 4rem;
+        }
+        .sixteen table  td{
+        width: 10%;
+        padding: 0.2rem;
+        }
+        /* seventeen */
+        .seventeen{
+            height: 80vh;
+        }
+        .seventeen .details .reviews{
+            
+                height: 0vh;
+                text-align: start;
+             
+            }
+            .seventeen .details .reviews h4{
+                font-weight: 100;
+            }
+            .seventeen .details .reviews .r img{
+                width: 30%;
+                height: 50vh;
+                }
+                .seventeen .details .reviews img{
+                    width: 10%;
+                    height: 15vh;
+                   margin-left: 6rem;
+                
+                    }
+                    .seventeen .details .reviews h4{
+                        font-weight: 400;
+                    }
+                    .seventeen .details .peers{
+                        margin-left: 24rem;
+                        height: 50vh;
+                    }
+         
+    .seventeen .details .peers .box{
+        width: 96%;
+        height: 20vh;
+      
+        
+    }
+    .seventeen .details .peers .box .right {
+        height: 10vh;
+        width: 55%;
+        margin-left: 2rem;
+      
+    }
+    .seventeen .details .peers .box .right img{
+        width: 60%;
+        height: 30vh;
+    }
+    
+}
+        
+
